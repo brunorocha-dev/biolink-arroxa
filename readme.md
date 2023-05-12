@@ -1,13 +1,12 @@
 <h1 align="center"> Biolink Arroxa Salgateria </h1>
 
 <p align="center">
-Como o Dono da Salgateria, projetinho realizado com mais a cara da loja.
+Como o Dono da Salgateria, projeto realizado com mais a cara da loja.
 </p>
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
 
@@ -18,7 +17,7 @@ Como o Dono da Salgateria, projetinho realizado com mais a cara da loja.
 <br>
 
 <p align="center">
-  <img alt="Projeto bioink" src=".github/preview.jng" width="100%">
+  <img alt="Projeto bioink" src=".github/preview.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
@@ -28,20 +27,16 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - HTML  
 - CSS
 - JavaScript
+- Figma
 - Git e Github
 
 ## 💻 Projeto
 
 Biolink do Arroxa Salgateria, é um agregador de links para usar como cartão de visitas online.
 
-## 🔖 Layout
-
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/J1Z33MISC22YZB8wfxiIns/NLW-Copa-Explorer/duplicate). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+## OBS:
+O menu WhatsApp e Cardápio não estão retornando, por motivos que a empresa está passando por mudanças.
 
 ## :memo: Licença
 
 Esse projeto está sob a licença MIT.
-
----
-
-Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
