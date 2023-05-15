@@ -16,9 +16,9 @@ function toggleMode() {
         
     const img = document.querySelector(".avatar img")
     if ( html.classList.contains("light")){
-        img.setAttribute("src", "./img-bg/Avatar-darck.png")
-    } else {
         img.setAttribute("src", "./img-bg/Avatar-light.png")
+    } else {
+        img.setAttribute("src", "./img-bg/Avatar-darck.png")
     }
 }
 
