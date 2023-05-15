@@ -1,22 +1,5 @@
 :root {
-    --text-color-all: #000000;
-    --color-menu: #1f1f1f;
-    --bg-lightmode: url(./img-bg/bg-light.jpg); 
-    --stroke-color: rgba(0, 0, 0, 0.5);
-    --surface-color: rgba(0, 0, 0, 0.05);
-
-    --darck-mode: url(./sun.svg);
-    --stroke-color-mode: rgba(0, 0, 0, 0.5);
-
-    /*hover*/
-    --hover-bg-troke: #000000;
-    --hover-bg-surface: #000000;
-    --hover-bg-social: rgba(255, 255, 255, 0.2);
-    --text-color-menu: #ffffff; 
-}
-
-.darck {
-    --text-color: #ffffff;
+    --text-color-all: #ffffff;
     --color-menu: #ffffff;
     --bg-lightmode: #1f1f1f;
     --stroke-color: rgba(255, 255, 255, 0.5);
@@ -32,6 +15,23 @@
     --text-color-menu: #1f1f1f;
 }
 
+.light {
+    --text-color-all: #000000;
+    --color-menu: #1f1f1f;
+    --bg-lightmode: url(./img-bg/bg-light.jpg); 
+    --stroke-color: rgba(0, 0, 0, 0.5);
+    --surface-color: rgba(0, 0, 0, 0.05);
+
+    --darck-mode: url(./sun.svg);
+    --stroke-color-mode: rgba(0, 0, 0, 0.5);
+
+    /*hover*/
+    --hover-bg-troke: #000000;
+    --hover-bg-surface: #000000;
+    --hover-bg-social: rgba(255, 255, 255, 0.2);
+    --text-color-menu: #ffffff;
+}
+
 /* Formatação de toda página */
 
 body * {
@@ -43,7 +43,7 @@ body * {
     box-sizing: border-box;
 
     font-family: 'inter' , sans-serif;
-    color: var(--text-color);
+    color: var(--text-color-all);
 }
 
 body {
@@ -115,7 +115,7 @@ body {
     border-radius: 9999px;
 }
 
-.darck .darckmode button {
+.light .darckmode button {
     right: 0;
     left: initial;
 } 

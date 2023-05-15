@@ -2,7 +2,7 @@
 
 function toggleMode() {
     const html = document.documentElement
-    html.classList.toggle('darck')
+    html.classList.toggle('light')
 
     // outra forma: 
     //if ( html.classList.contains('darck')) {
@@ -15,7 +15,7 @@ function toggleMode() {
     // Transição da foto/avatar darck mode 
         
     const img = document.querySelector(".avatar img")
-    if ( html.classList.contains("darck")){
+    if ( html.classList.contains("light")){
         img.setAttribute("src", "./img-bg/Avatar-darck.png")
     } else {
         img.setAttribute("src", "./img-bg/Avatar-light.png")
