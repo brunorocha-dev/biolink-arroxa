@@ -118,7 +118,14 @@ body {
 .light .darckmode button {
     right: 0;
     left: initial;
-} 
+}
+
+/* Pseudo selecdo selecto - Darck Mode */
+
+.darckmode button:hover {
+    outline: 8px solid var(--hover-bg-social);
+    box-shadow: 0 0 5px #3b3b3b;
+}
 
 /* barra de menus */
 
